@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/colors/colors.dart';
 import 'package:food_delivery_app/splash_screen/splash_screen.dart';
 
 void main() {
@@ -12,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: appColor,
       ),
       home: const SplashScreen(),
     );
   }
 }
+//419F7D
