@@ -41,9 +41,9 @@ class ScreenSignup extends StatelessWidget {
                     MainButton(
                       title: 'Continue',
                     ),
-                    Kheight(value: 25),
+                    Kheight(value: 50),
                     OrSigninWithWidget(),
-                    Kheight(value: 30),
+                    Kheight(value: 10),
                     GoogleAppleSignin()
                   ],
                 ),
