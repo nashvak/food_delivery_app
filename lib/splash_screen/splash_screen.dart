@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:food_delivery_app/signup_screen.dart';
+import 'package:food_delivery_app/signup_screen/signup_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

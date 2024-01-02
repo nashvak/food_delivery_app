@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/colors/colors.dart';
+import 'package:food_delivery_app/constantss/colors.dart';
 import 'package:food_delivery_app/splash_screen/splash_screen.dart';
 
 void main() {
