@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/constantss/colors.dart';
 
 import 'package:food_delivery_app/signup_screen/signup_screen.dart';
 
@@ -15,7 +16,9 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => ScreenSignup()),
+        MaterialPageRoute(
+          builder: (context) => const ScreenSignup(),
+        ),
       );
     });
     super.initState();
@@ -24,6 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: appColor,
       body: Center(
         child: Image.asset(
           'images/foodapp_Logo.png',

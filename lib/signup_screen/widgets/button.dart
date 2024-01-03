@@ -3,8 +3,10 @@ import 'package:food_delivery_app/constantss/colors.dart';
 
 class MainButton extends StatelessWidget {
   final String title;
+  final Function() ontap;
   const MainButton({
     required this.title,
+    required this.ontap,
     super.key,
   });
 
@@ -21,7 +23,7 @@ class MainButton extends StatelessWidget {
           const EdgeInsets.symmetric(horizontal: 20),
         ),
       ),
-      onPressed: () {},
+      onPressed: ontap,
       child: Text(
         title,
         style: const TextStyle(fontSize: 20),

@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Foodie',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light().copyWith(
-        scaffoldBackgroundColor: appColor,
+        scaffoldBackgroundColor: primaryColor,
       ),
       home: const SplashScreen(),
     );

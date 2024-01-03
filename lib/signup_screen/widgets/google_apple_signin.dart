@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constantss/colors.dart';
 import 'package:food_delivery_app/constantss/sizedbox.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 
