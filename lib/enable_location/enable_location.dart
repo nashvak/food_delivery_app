@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/constantss/colors.dart';
 import 'package:food_delivery_app/constantss/sizedbox.dart';
+import 'package:food_delivery_app/get_location/getlocation.dart';
 import 'package:food_delivery_app/signup_screen/widgets/button.dart';
 import 'package:lottie/lottie.dart';
 
@@ -31,9 +32,17 @@ class EnableLocation extends StatelessWidget {
             ),
             MainButton(title: 'Enable Device location', ontap: () {}),
             const Kheight(value: 10),
-            const Text(
-              'Set location manually',
-              style: TextStyle(fontSize: 18, color: appColor),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => GetLocationManually()));
+              },
+              child: const Text(
+                'Set location manually',
+                style: TextStyle(fontSize: 18, color: appColor),
+              ),
             ),
             const Spacer(
               flex: 1,
