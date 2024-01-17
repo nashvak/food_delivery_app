@@ -9,7 +9,7 @@ class GetLocationManually extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'Enter your area or apartment name',
           style: TextStyle(fontSize: 16),
         ),
@@ -21,30 +21,30 @@ class GetLocationManually extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Kheight(value: 20),
+            const Kheight(value: 20),
             TextFormField(
               decoration: InputDecoration(
-                prefixIcon: Icon(
+                prefixIcon: const Icon(
                   Icons.search,
                   color: Colors.grey,
                 ),
                 hintText: 'Kolkata,mumbai etc...',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
-                  borderSide: BorderSide(color: primaryColor, width: 2),
+                  borderSide: const BorderSide(color: primaryColor, width: 2),
                 ),
               ),
             ),
-            Kheight(value: 20),
+            const Kheight(value: 20),
             Row(
               children: [
-                Icon(
+                const Icon(
                   Icons.location_on,
                   color: appColor,
                 ),
                 GestureDetector(
                   onTap: () {},
-                  child: Text(
+                  child: const Text(
                     'Use my current location',
                     style: TextStyle(fontSize: 16, color: appColor),
                   ),

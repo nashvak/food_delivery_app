@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850290963101",
+    "project_id": "food-app-447c9",
+    "storage_bucket": "food-app-447c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850290963101:android:afcb85841f7bd674adda74",
+        "android_client_info": {
+          "package_name": "com.selfstack.food_delivery_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWSxdQQjaRUZcAAY_GIjXXLGm8PgFGUkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

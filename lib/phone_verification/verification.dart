@@ -20,7 +20,7 @@ class PhoneVerfication extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(
               children: [
-                Kheight(value: 100),
+                const Kheight(value: 100),
                 const Center(
                   child: Text(
                     'Enter OTP',
@@ -46,7 +46,7 @@ class PhoneVerfication extends StatelessWidget {
                     ],
                   ),
                 ),
-                Kheight(value: 50),
+                const Kheight(value: 50),
                 Pinput(
                   length: 4,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -54,19 +54,19 @@ class PhoneVerfication extends StatelessWidget {
                   defaultPinTheme: PinTheme(
                       height: 50,
                       width: 50,
-                      textStyle:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      textStyle: const TextStyle(
+                          fontSize: 20, fontWeight: FontWeight.bold),
                       decoration:
                           BoxDecoration(border: Border.all(color: appColor))),
                 ),
-                Kheight(value: 50),
+                const Kheight(value: 50),
                 MainButton(
                     title: 'Verify',
                     ontap: () {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => EnableLocation()));
+                              builder: (context) => const EnableLocation()));
                     })
               ],
             ),

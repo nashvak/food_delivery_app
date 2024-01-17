@@ -37,7 +37,7 @@ class EnableLocation extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => GetLocationManually()));
+                        builder: (context) => const GetLocationManually()));
               },
               child: const Text(
                 'Set location manually',
